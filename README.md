@@ -1,11 +1,14 @@
 # DesginModel
 Learning design on C#
 
-¾ßÌåÎÄ×ÖĞÅÏ¢²Î¿¼£ºhttps://www.cnblogs.com/abcdwxc/archive/2007/10/30/942834.html
+å…·ä½“æ–‡å­—ä¿¡æ¯å‚è€ƒï¼šhttps://www.cnblogs.com/abcdwxc/archive/2007/10/30/942834.html
 
-C#³£ÓÃÉè¼ÆÄ£Ê½·ÖÀà£º
-1.´´½¨ĞÍ£º°üº¬µ¥ÁĞÄ£Ê½¡¾SingletonPattern¡¿¡¢³éÏó¹¤³§¡¾AbstractFactory¡¿¡¢½¨ÔìÕßÄ£Ê½¡¾Builder¡¿¡¢¹¤³§·½·¨Ä£Ê½¡¾FactoryMethod¡¿¡¢Ô­ĞÍÄ£Ê½¡¾Prototype¡¿
-2.½á¹¹ĞÍ£º°üº¬ÊÊÅäÆ÷Ä£Ê½¡¾AdapterPattern¡¿¡¢ÇÅ½ÓÄ£Ê½¡¾BridgePattern¡¿¡¢×°ÊÎÄ£Ê½¡¾DecoratorPattern¡¿¡¢×éºÏÄ£Ê½¡¾CompositePattern¡¿¡¢Íâ¹ÛÄ£Ê½¡¾FacadePattern¡¿¡¢
-ÏíÔªÄ£Ê½¡¾FlyweightPattern¡¿¡¢´úÀíÄ£Ê½¡¾ProxyPattern¡¿
-3.ĞĞÎªĞÍ£º°üº¬Ä£°å·½·¨¡¾TemplateMethod¡¿¡¢ÃüÁîÄ£Ê½¡¾CommandPattern¡¿¡¢µü´úÆ÷Ä£Ê½¡¾LteratorPattern¡¿¡¢¹Û²ìÕßÄ£Ê½¡¾ObserverPattern¡¿¡¢½âÊÍÆ÷Ä£Ê½¡¾InterpreterPattern¡¿¡¢
-ÖĞ½éÕßÄ£Ê½¡¾MediatorPattern¡¿¡¢Ö°ÔğÁ´Ä£Ê½¡¾Chain of Responsibility Pattern¡¿¡¢±¸ÍüÂ¼Ä£Ê½¡¾MementoPattern¡¿¡¢²ßÂÔÄ£Ê½¡¾StrategyPattern¡¿¡¢·ÃÎÊÄ£Ê½¡¾VisitorPattern¡¿¡¢×´Ì¬Ä£Ê½¡¾StatePattern¡¿
+C#å¸¸ç”¨è®¾è®¡æ¨¡å¼åˆ†ç±»ï¼š
+
+1.åˆ›å»ºå‹ï¼šåŒ…å«å•åˆ—æ¨¡å¼ã€SingletonPatternã€‘ã€æŠ½è±¡å·¥å‚ã€AbstractFactoryã€‘ã€å»ºé€ è€…æ¨¡å¼ã€Builderã€‘ã€å·¥å‚æ–¹æ³•æ¨¡å¼ã€FactoryMethodã€‘ã€åŸå‹æ¨¡å¼ã€Prototypeã€‘
+
+2.ç»“æ„å‹ï¼šåŒ…å«é€‚é…å™¨æ¨¡å¼ã€AdapterPatternã€‘ã€æ¡¥æ¥æ¨¡å¼ã€BridgePatternã€‘ã€è£…é¥°æ¨¡å¼ã€DecoratorPatternã€‘ã€ç»„åˆæ¨¡å¼ã€CompositePatternã€‘ã€å¤–è§‚æ¨¡å¼ã€FacadePatternã€‘ã€
+äº«å…ƒæ¨¡å¼ã€FlyweightPatternã€‘ã€ä»£ç†æ¨¡å¼ã€ProxyPatternã€‘
+
+3.è¡Œä¸ºå‹ï¼šåŒ…å«æ¨¡æ¿æ–¹æ³•ã€TemplateMethodã€‘ã€å‘½ä»¤æ¨¡å¼ã€CommandPatternã€‘ã€è¿­ä»£å™¨æ¨¡å¼ã€LteratorPatternã€‘ã€è§‚å¯Ÿè€…æ¨¡å¼ã€ObserverPatternã€‘ã€è§£é‡Šå™¨æ¨¡å¼ã€InterpreterPatternã€‘ã€
+ä¸­ä»‹è€…æ¨¡å¼ã€MediatorPatternã€‘ã€èŒè´£é“¾æ¨¡å¼ã€Chain of Responsibility Patternã€‘ã€å¤‡å¿˜å½•æ¨¡å¼ã€MementoPatternã€‘ã€ç­–ç•¥æ¨¡å¼ã€StrategyPatternã€‘ã€è®¿é—®æ¨¡å¼ã€VisitorPatternã€‘ã€çŠ¶æ€æ¨¡å¼ã€StatePatternã€‘
