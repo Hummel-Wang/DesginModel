@@ -2,7 +2,9 @@
 Learning design on C#
 
 具体文字信息参考：
+
 https://www.cnblogs.com/abcdwxc/archive/2007/10/30/942834.html
+
 http://www.cnblogs.com/zhili/p/DesignPatternSummery.html
 
 C#常用设计模式分类：
