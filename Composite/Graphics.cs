@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Composite
 {
     /// <summary>
-    /// 图形抽象类
+    /// 图形抽象类，
     /// </summary>
     public abstract class Graphics
     {
@@ -18,8 +18,9 @@ namespace Composite
         }
 
         public abstract void Draw();
-        public abstract void Add(Graphics g);
-        public abstract void Remove(Graphics g);
+        // 移除了Add和Remove方法
+        // 把管理子对象的方法放到了ComplexGraphics类中进行管理
+        // 因为这些方法只在复杂图形中才有意义
     }
 
     /// <summary>
@@ -35,17 +36,6 @@ namespace Composite
         public override void Draw()
         {
             Console.WriteLine("画  " + Name);
-        }
-        // 因为简单图形在添加或移除其他图形，所以简单图形Add或Remove方法没有任何意义
-        // 如果客户端调用了简单图形的Add或Remove方法将会在运行时抛出异常
-        // 我们可以在客户端捕获该类移除并处理
-        public override void Add(Graphics g)
-        {
-            throw new Exception("不能向简单图形Line添加其他图形");
-        }
-        public override void Remove(Graphics g)
-        {
-            throw new Exception("不能向简单图形Line移除其他图形");
         }
     }
 
@@ -63,15 +53,6 @@ namespace Composite
         {
             Console.WriteLine("画  " + Name);
         }
-
-        public override void Add(Graphics g)
-        {
-            throw new Exception("不能向简单图形Circle添加其他图形");
-        }
-        public override void Remove(Graphics g)
-        {
-            throw new Exception("不能向简单图形Circle移除其他图形");
-        }
     }
 
     /// <summary>
@@ -80,7 +61,6 @@ namespace Composite
     public class ComplexGraphics : Graphics
     {
         private List<Graphics> complexGraphicsList = new List<Graphics>();
-
         public ComplexGraphics(string name)
             : base(name)
         { }
@@ -96,11 +76,11 @@ namespace Composite
             }
         }
 
-        public override void Add(Graphics g)
+        public void Add(Graphics g)
         {
             complexGraphicsList.Add(g);
         }
-        public override void Remove(Graphics g)
+        public void Remove(Graphics g)
         {
             complexGraphicsList.Remove(g);
         }
