@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stragety", "Stragety\Strage
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsibilityChain", "ResponsibilityChain\ResponsibilityChain.csproj", "{9E59FB7F-961E-4963-A46C-7779BC865A89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vistor", "Vistor\Vistor.csproj", "{34450834-2A43-47EC-91FA-A892AE970E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{C446DC7B-5EB1-47BD-A9F1-F734F4125EC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{9E59FB7F-961E-4963-A46C-7779BC865A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E59FB7F-961E-4963-A46C-7779BC865A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E59FB7F-961E-4963-A46C-7779BC865A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34450834-2A43-47EC-91FA-A892AE970E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34450834-2A43-47EC-91FA-A892AE970E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34450834-2A43-47EC-91FA-A892AE970E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34450834-2A43-47EC-91FA-A892AE970E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C446DC7B-5EB1-47BD-A9F1-F734F4125EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C446DC7B-5EB1-47BD-A9F1-F734F4125EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C446DC7B-5EB1-47BD-A9F1-F734F4125EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C446DC7B-5EB1-47BD-A9F1-F734F4125EC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
